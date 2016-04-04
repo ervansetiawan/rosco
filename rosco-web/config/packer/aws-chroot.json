@@ -32,7 +32,7 @@
     "type": "shell",
     "script": "{{user `configDir`}}/install_packages.sh",
     "environment_vars": [
-      "repository={{user `repository`}}",
+      "repository='{{user `repository`}}'",
       "package_type={{user `package_type`}}",
       "packages={{user `packages`}}",
       "upgrade={{user `upgrade`}}",
